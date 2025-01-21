@@ -55,5 +55,5 @@ const makeCommits = async (n, startDate, endDate) => {
     console.error("Error during commit process:", error);
   }
 };
-
-makeCommits(10, "2024-12-13", "2024-12-27");
+/////yyyy-mm-dd
+makeCommits(10, "2024-01-01", "2024-12-31");
